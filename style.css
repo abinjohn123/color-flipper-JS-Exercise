@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: aqua;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.current-clr {
+  padding: 2rem;
+  background-color: #343a40;
+  font-size: 4rem;
+}
+.current-clr-text {
+  color: #f8f9fa;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  padding: 2rem;
+  border-radius: 8px;
+  font-size: 1.6rem;
+}
