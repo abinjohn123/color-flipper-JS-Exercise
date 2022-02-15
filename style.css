@@ -18,12 +18,15 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
+
+  transition: background-color 0.5s;
 }
 
 .current-clr {
   padding: 2rem;
   background-color: #343a40;
   font-size: 4rem;
+  border-radius: 9px;
 }
 .current-clr-text {
   color: #f8f9fa;
@@ -36,5 +39,15 @@ body {
 
   padding: 2rem;
   border-radius: 8px;
-  font-size: 1.6rem;
+  font-size: 2rem;
+
+  border: 1px solid #343a40;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.btn:hover {
+  background-color: #dee2e6;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
 }
